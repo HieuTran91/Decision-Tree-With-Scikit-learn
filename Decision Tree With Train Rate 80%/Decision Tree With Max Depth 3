@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<C5 &le; 3.5<br/>entropy = 1.417<br/>samples = 205002<br/>value = [102403, 86980, 9711, 4344, 799, 438, 276, 46, 2, 3]<br/>class = Nothing in hand>, fillcolor="#fcefe5"] ;
+1 [label=<C1 &le; 3.5<br/>entropy = 1.407<br/>samples = 47775<br/>value = [23794, 20382, 2297, 1032, 100, 96, 60, 13, 0, 1]<br/>class = Nothing in hand>, fillcolor="#fcefe6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<C3 &le; 3.5<br/>entropy = 1.567<br/>samples = 10309<br/>value = [3865, 5179, 752, 429, 36, 10, 29, 9, 0, 0]<br/>class = One Pair>, fillcolor="#f9fad7"] ;
+1 -> 2 ;
+3 [label=<entropy = 1.707<br/>samples = 2069<br/>value = [340, 1226, 250, 221, 7, 1, 16, 8, 0, 0]<br/>class = One Pair>, fillcolor="#f0f29a"] ;
+2 -> 3 ;
+4 [label=<entropy = 1.468<br/>samples = 8240<br/>value = [3525, 3953, 502, 208, 29, 9, 13, 1, 0, 0]<br/>class = One Pair>, fillcolor="#fcfded"] ;
+2 -> 4 ;
+5 [label=<C4 &le; 3.5<br/>entropy = 1.344<br/>samples = 37466<br/>value = [19929, 15203, 1545, 603, 64, 86, 31, 4, 0, 1]<br/>class = Nothing in hand>, fillcolor="#f9e4d5"] ;
+1 -> 5 ;
+6 [label=<entropy = 1.495<br/>samples = 8343<br/>value = [3638, 3873, 550, 225, 24, 13, 20, 0, 0, 0]<br/>class = One Pair>, fillcolor="#fefef5"] ;
+5 -> 6 ;
+7 [label=<entropy = 1.288<br/>samples = 29123<br/>value = [16291, 11330, 995, 378, 40, 73, 11, 4, 0, 1]<br/>class = Nothing in hand>, fillcolor="#f8dcc8"] ;
+5 -> 7 ;
+8 [label=<C1 &le; 3.5<br/>entropy = 1.42<br/>samples = 157227<br/>value = [78609, 66598, 7414, 3312, 699, 342, 216, 33, 2, 2]<br/>class = Nothing in hand>, fillcolor="#fceee5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label=<C2 &le; 3.5<br/>entropy = 1.34<br/>samples = 36850<br/>value = [19782, 14815, 1505, 534, 71, 105, 28, 8, 1, 1]<br/>class = Nothing in hand>, fillcolor="#f9e3d2"] ;
+8 -> 9 ;
+10 [label=<entropy = 1.472<br/>samples = 8061<br/>value = [3539, 3757, 552, 161, 20, 16, 10, 5, 1, 0]<br/>class = One Pair>, fillcolor="#fefef5"] ;
+9 -> 10 ;
+11 [label=<entropy = 1.291<br/>samples = 28789<br/>value = [16243, 11058, 953, 373, 51, 89, 18, 3, 0, 1]<br/>class = Nothing in hand>, fillcolor="#f7dac5"] ;
+9 -> 11 ;
+12 [label=<C3 &le; 3.5<br/>entropy = 1.442<br/>samples = 120377<br/>value = [58827, 51783, 5909, 2778, 628, 237, 188, 25, 1, 1]<br/>class = Nothing in hand>, fillcolor="#fcf2eb"] ;
+8 -> 12 ;
+13 [label=<entropy = 1.292<br/>samples = 28935<br/>value = [16240, 11182, 982, 392, 58, 63, 14, 3, 0, 1]<br/>class = Nothing in hand>, fillcolor="#f8dbc7"] ;
+12 -> 13 ;
+14 [label=<entropy = 1.481<br/>samples = 91442<br/>value = [42587, 40601, 4927, 2386, 570, 174, 174, 22, 1, 0]<br/>class = Nothing in hand>, fillcolor="#fefaf7"] ;
+12 -> 14 ;
+}

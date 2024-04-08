@@ -1,4 +1,3 @@
-
 # DECISION TREE
 
 This project builds a Decision Tree model to classify data using the Scikit-learn library.
@@ -8,11 +7,12 @@ This project builds a Decision Tree model to classify data using the Scikit-lear
 
 Apply Decision Tree to solve data classification problem.
 Use Scikit-learn to build and evaluate Decision Tree models.
+
 ## Tech Stack
 
-**Language:** Python
+- Language: Python
 
-**Library:** Scikit learn
+- Library: Scikit learn
  
 
 ## Work Flow

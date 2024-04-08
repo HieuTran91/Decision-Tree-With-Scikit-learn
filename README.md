@@ -22,6 +22,7 @@ Use Scikit-learn to build and evaluate Decision Tree models.
  - Shuffle the data
  - Create label and feature for data
  - Visualize the distributions of classes in all the data sets
+
 **Building the decision tree classifiers**
 
 **Evaluating the decision tree classifiers:**
